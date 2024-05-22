@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3000;
 
 const corsOptions = {
   // origin: 'http://localhost:5173', // Замените на URL вашего фронтенда
-  origin: ['https://mirano-five.vercel.app', 'http://localhost:5173', 'https://mirano-api-stvk.onrender.com'],
+  origin: ['https://mirano-five.vercel.app', 'http://localhost:5173', 'https://mirano-render.onrender.com'],
   credentials: true,
 };
 
